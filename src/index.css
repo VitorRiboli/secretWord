@@ -16,4 +16,24 @@ body {
     background-size: cover;
 }
 
+button {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    background-color: black;
+    color: goldenrod;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    font-size: 22px;
+    background-color: rgb(4, 74, 224);
+}
+
 

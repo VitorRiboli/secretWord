@@ -1,0 +1,90 @@
+.game {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px 15px 0px;
+    align-items: center;
+}
+
+.headerContainer h1 {
+    padding-right: 30px;
+    color: rgb(205, 216, 216);
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.headerContainer span {
+    color: rgb(202, 210, 218);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.tip {
+    color: aliceblue;
+    font-size: 28px;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+}
+
+.wordContainer {
+    margin: 10px 0 30px 0;
+    font-size: 26px;
+    color: brown;
+    letter-spacing: 1px;
+}
+
+.letterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letterContainer p {
+    letter-spacing: 1px;
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.letterContainer form input {
+    width: 120px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2px 4px;
+    background-color: rgb(2, 112, 2);
+    border: 3px solid rgb(196, 255, 148);
+    color: aliceblue;
+}
+
+.wrongLettersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrongLettersContainer p {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.span span {
+    flex-direction: row;
+    padding: 8px;
+    color: red;
+    font-size: 18px;
+}

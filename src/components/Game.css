@@ -34,10 +34,23 @@
 }
 
 .wordContainer {
-    margin: 10px 0 30px 0;
-    font-size: 26px;
-    color: brown;
-    letter-spacing: 1px;
+    margin: 1em 0 1.5em 0;
+    padding: 1.5em;
+    border: 20px solid rgba(235, 7, 7, 0.726);
+    border-radius: 30px;
+    color: rgb(251, 255, 0);
+}
+
+.letter, .blankSquare {
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid aliceblue;
+    width: 100px;
+    height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: gold;
 }
 
 .letterContainer {

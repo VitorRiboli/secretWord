@@ -16,7 +16,7 @@ const Game = ({ verifyLetter }) => {
       </h3>
 
       <div className='wordContainer'>
-        <span className='letter'></span>
+        <span className='letter'>a</span>
         <span className="blankSquare"></span>
       </div>
 
@@ -37,7 +37,7 @@ const Game = ({ verifyLetter }) => {
           <span>c,</span>
         </div>
       </div>
-      
+
     </div>
   )
 }

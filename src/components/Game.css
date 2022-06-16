@@ -33,6 +33,13 @@
     letter-spacing: 1px;
 }
 
+.tentativa {
+    color: aliceblue;
+    font-size: 22px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
 .wordContainer {
     margin: 1em 0 1.5em 0;
     padding: 1.5em;

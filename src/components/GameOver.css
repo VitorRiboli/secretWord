@@ -1,0 +1,28 @@
+.box {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin: 30px;
+    color: red;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: aliceblue;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.subtitle span {
+    text-align: center;
+    color: rgb(255, 217, 0);
+    font-size: 35px;
+    text-decoration: underline;
+}
+

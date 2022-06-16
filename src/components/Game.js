@@ -12,6 +12,7 @@ const Game = ({ verifyLetter, pickedWord, pickedCategory,
 
       verifyLetter(letter);
 
+      setLetter("")
       letterInputRef.current.focus();
     }
 
@@ -36,7 +37,7 @@ const Game = ({ verifyLetter, pickedWord, pickedCategory,
         {/* Pegando a letra e o indice, vai retornar um objeto*/}
         {letters.map((letter, i) => (
           /*Se a letra digitada, está incluida em letters, imprimirá, se não */
-          guessedLetters.includes(letters) ? (
+          guessedLetters.includes(letter) ? (
             <span key={i} className="letter">{letter}</span>
           ) : (
             <span key={i} className="blankSquare"></span>

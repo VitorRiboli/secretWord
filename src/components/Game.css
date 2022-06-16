@@ -106,5 +106,7 @@
     flex-direction: row;
     padding: 8px;
     color: red;
-    font-size: 18px;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
